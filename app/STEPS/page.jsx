@@ -15,7 +15,7 @@ export default function VideoPlayer() {
   return (
     <div>
       {isLoading ? (
-        <Loading  />
+        <Loading />
       ) : (
         <div>
           <iframe
