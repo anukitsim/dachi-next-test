@@ -30,14 +30,3 @@
   @apply text-[#484848] font-MPlus1 text-xl font-thin tracking-wider whitespace-nowrap;
 }
 
-.mobile_menu_open {
-  @apply block !important;
-}
-
-.mobile_menu {
-  @apply hidden sm:block;
-}
-
-.menu_button {
-  @apply sm:hidden font-MPlus1 block text-[#484848] font-thin tracking-wider text-sm;
-}
