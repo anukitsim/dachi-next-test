@@ -1,18 +1,34 @@
+"use client"
+
+import { useEffect } from "react";
+
 const Psr = () => {
-    return (
-        <>
-        <div className="absolute inset-0 top-0 leeft-0 z-0 w-screen h-full">
-          <div className="z-10 bg-cover bg-center bg-no-repeat">
-            <img
-              src="gif/gif.gif"
-              alt="Overlay"
-              className="h-full w-full object-cover"
-            />
-          </div>
-        </div>
-      </>
-    );
-  };
-  
-  export default Psr;
-  
+  useEffect(() => {
+    const audio = new Audio('/audio/psr.mp3');
+    audio.play();
+
+    return () => {
+      // Cleanup: Pause and remove the audio element
+      audio.pause();
+      audio.src = '';
+    };
+  }, []);
+
+  return (
+    <>
+      <div className="absolute inset-0  z-10 w-screen h-screen">
+         <video
+          autoPlay
+          loop
+          muted
+          className="object-cover w-full h-full"
+          style={{ position: 'absolute', top: 0, left: 0 }}
+        >
+          <source src="/video/gif.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </>
+  );
+};
+
+export default Psr;
