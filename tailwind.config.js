@@ -14,8 +14,10 @@ module.exports = {
       colors: {
         'primary-gray': '#DBDBDBE2',
         
-      }
+      },
+    
     },
+
   },
   plugins: [],
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 const Garbage = () => {
   return (
     <>
@@ -31,7 +32,10 @@ const Garbage = () => {
           <br /> 
           <br />
           <br />
-          <span className="block text-[#484848] font-MPlus1 text-right font-widest  tracking-normal text-lg leading-6 w-full xl:w-8/12 lg:8/12">Chair is constructed by collecting and stealing items on a single street of Tbilisi</span>
+          <span className="block text-[#484848] text-right font-MPlus1 lg:text-lg leading-6 min-[1900px]:w-10såœåu  e4sa3yghzx p0hl;-y/12 min-[1300px]:w-full min-[1600px]:w-full min-[1500px]:w-full min-[1400px]:w-full /12 sm:w-full md:w-full xl:w-8/12 lg:6/12 tracking-normal">
+  Chair is constructed by collecting and stealing items on a single street of Tbilisi
+</span>
+
         </p>
         <br />
        

@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 const Broken = () => {
   return (
     <section className="h-full flex flex-col">

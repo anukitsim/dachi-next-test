@@ -21,7 +21,7 @@ const Psr = () => {
           autoPlay
           loop
           muted
-          className="object-cover w-full h-full"
+          className="object-contain w-full h-auto lg:mt-[-500px] md:mt-[-500px] xl:mt-[-500px] 2xl:mt-[-500px]"
           style={{ position: 'absolute', top: 0, left: 0 }}
         >
           <source src="/video/gif.mp4" type="video/mp4" />

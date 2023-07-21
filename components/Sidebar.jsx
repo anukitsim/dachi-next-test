@@ -4,7 +4,6 @@
 
   import { useState } from "react";
   import Link from "next/link";
-
   import { useSelectedLayoutSegment } from "next/navigation";
 
   const Sidebar = () => {
@@ -12,9 +11,7 @@
 
     const isActive = (href) => {
       if (useSelectedLayoutSegment() === href) {
-        if (href === '/invasive-modification') {
-          return 'invasive-bg';  // Return a different class for the /about route
-        }
+       
         return 'active';
       }
       return '';
