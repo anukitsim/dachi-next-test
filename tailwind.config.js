@@ -7,6 +7,7 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    
     extend: {
       fontFamily: {
         MPlus1: ["M PLUS 1", "sans-serif"],
