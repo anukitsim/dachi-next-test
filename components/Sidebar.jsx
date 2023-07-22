@@ -1,18 +1,16 @@
-
-
 "use client";
 
   import { useState } from "react";
   import Link from "next/link";
-  import { useSelectedLayoutSegment } from "next/navigation";
+  import { usePathname } from "next/navigation";
 
   const Sidebar = () => {
     const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
+    const pathname = usePathname();
 
     const isActive = (href) => {
-      if (useSelectedLayoutSegment() === href) {
-       
-        return 'active';
+      if (pathname.startsWith(href)) {
+        return 'text-[#909090]'; 
       }
       return '';
     };
@@ -43,64 +41,64 @@
               </Link>
               <Link
                 href="/thewitness"
-                className={`project_link pt-2 ${isActive("thewitness")}`}
+                className={`project_link pt-2 ${isActive("/thewitness")}`}
               >
                 The Witness
               </Link>
               <Link
                 href="/invasive-modification"
-                className={`project_link ${isActive("invasive-modification")}`}
+                className={`project_link ${isActive("/invasive-modification")}`}
               >
                 Invasive Modification
               </Link>
-              <Link href="/STEPS" className={`project_link ${isActive("STEPS")}`}>
+              <Link href="/STEPS" className={`project_link ${isActive("/STEPS")}`}>
                 STEPS
               </Link>
               <Link
                 href="/Hyphen"
-                className={`project_link ${isActive("Hyphen")}`}
+                className={`project_link ${isActive("/Hyphen")}`}
               >
                 Hyphen
               </Link>
               <Link
                 href="/i-need-protection"
-                className={`project_link ${isActive("i-need-protection")}`}
+                className={`project_link ${isActive("/i-need-protection")}`}
               >
                 I Need Protection
               </Link>
-              <Link href="/obj" className={`project_link ${isActive("obj")}`}>
+              <Link href="/obj" className={`project_link ${isActive("/obj")}`}>
                 .OBJ
               </Link>
               <Link
                 href="/french-lessons"
-                className={`project_link ${isActive("french-lessons")}`}
+                className={`project_link ${isActive("/french-lessons")}`}
               >
                 French Lessons
               </Link>
               <Link
                 href="/garbage-throne"
-                className={`project_link ${isActive("garbage-throne")}`}
+                className={`project_link ${isActive("/garbage-throne")}`}
               >
                 Garbage Throne
               </Link>
-              <Link href="/psr" className={`project_link ${isActive("psr")}`}>
+              <Link href="/psr" className={`project_link ${isActive("/psr")}`}>
                 PSR
               </Link>
               <Link
                 href="/dead-vase"
-                className={`project_link ${isActive("dead-vase")}`}
+                className={`project_link ${isActive("/dead-vase")}`}
               >
                 Dead Vase
               </Link>
               <Link
                 href="/broken-city"
-                className={`project_link ${isActive("broken-city")}`}
+                className={`project_link ${isActive("/broken-city")}`}
               >
                 Broken City
               </Link>
               <Link
                 href="/march32"
-                className={`project_link ${isActive("march32")}`}
+                className={`project_link ${isActive("/march32")}`}
               >
                 March32
               </Link>
@@ -115,59 +113,59 @@
           </Link>
           <Link
             href="/thewitness"
-            className={`project_link pt-2 ${isActive("thewitness")}`}
+            className={`project_link pt-2 ${isActive("/ thewitness")}`}
           >
             The Witness
           </Link>
           <Link
             href="/invasive-modification"
-            className={`project_link ${isActive("invasive-modification")}`}
+            className={`project_link ${isActive("/invasive-modification")}`}
           >
             Invasive Modification
           </Link>
-          <Link href="/STEPS" className={`project_link ${isActive("STEPS")}`}>
+          <Link href="/STEPS" className={`project_link ${isActive("/STEPS")}`}>
             STEPS
           </Link>
-          <Link href="/Hyphen" className={`project_link ${isActive("Hyphen")}`}>
+          <Link href="/Hyphen" className={`project_link ${isActive("/Hyphen")}`}>
             Hyphen
           </Link>
           <Link
             href="/i-need-protection"
-            className={`project_link ${isActive("i-need-protection")}`}
+            className={`project_link ${isActive("/i-need-protection")}`}
           >
             I Need Protection
           </Link>
-          <Link href="/obj" className={`project_link ${isActive("obj")}`}>
+          <Link href="/obj" className={`project_link ${isActive("/obj")}`}>
             .OBJ
           </Link>
           <Link
             href="/french-lessons"
-            className={`project_link ${isActive("french-lessons")}`}
+            className={`project_link ${isActive("/french-lessons")}`}
           >
             French Lessons
           </Link>
           <Link
             href="/garbage-throne"
-            className={`project_link ${isActive("garbage-throne")}`}
+            className={`project_link ${isActive("/garbage-throne")}`}
           >
             Garbage Throne
           </Link>
-          <Link href="/psr" className={`project_link ${isActive("psr")}`}>
+          <Link href="/psr" className={`project_link ${isActive("/psr")}`}>
             PSR
           </Link>
           <Link
             href="/dead-vase"
-            className={`project_link ${isActive("dead-vase")}`}
+            className={`project_link ${isActive("/dead-vase")}`}
           >
             Dead Vase
           </Link>
           <Link
             href="/broken-city"
-            className={`project_link ${isActive("broken-city")}`}
+            className={`project_link ${isActive("/broken-city")}`}
           >
             Broken City
           </Link>
-          <Link href="/march32" className={`project_link ${isActive("march32")}`}>
+          <Link href="/march32" className={`project_link ${isActive("/march32")}`}>
             March32
           </Link>
         </ul>

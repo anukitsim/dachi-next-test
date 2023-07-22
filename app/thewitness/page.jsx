@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 
+
 const Loading = dynamic(() => import("./loading"), { ssr: false });
 
 export default function VideoPlayer() {
@@ -39,9 +40,9 @@ export default function VideoPlayer() {
           <iframe
             src="https://player.vimeo.com/video/804685785?h=53a3b36cd6&title=0&byline=0&portrait=0"
             className="aspect-video w-full h-full"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <p className="caption-bottom text-right text-xs font-MPlus1 text-[#484848] font-normal">
             Le Témoin / The Witness

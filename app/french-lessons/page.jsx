@@ -7,7 +7,7 @@ const French = () => {
        
       </div>
 
-      <div className="relative z-20">
+      <div className="relative z-20 min-[300px]:ml-[100px]">
       <Image
             alt="french-lessons"
             src="/images/french.png"

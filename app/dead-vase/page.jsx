@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Vase = () => {
   return (
-    <div className="flex flex-row gap-10 relative">
+    <div className="flex md:flex-row gap-10 relative min-[300px]:flex-col">
       <div className="absolute w-3/4 top-56 left-36">
       <Image
           src="/images/vase3.png"

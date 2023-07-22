@@ -4,7 +4,7 @@ import Image from "next/image";
 const Garbage = () => {
   return (
     <>
-      <div className="flex flex-row gap-10 relative">
+      <div className="flex md:flex-row gap-10 relative min-[300px]:flex-col">
      
      
         <Image
@@ -13,13 +13,13 @@ const Garbage = () => {
           width={700}
           height={475}
           sizes="30vw"
-          className="mb-10"
+          className="mb-10 min-[300px]:w-[500px]"
           style={{
             width: "30%",
             height: "auto",
           }}
         />
-        <p className="text-[#484848] font-MPlus1 font-wide font-thin tracking-normal text-base leading-6 w-5/12">
+        <p className="text-[#484848] font-MPlus1 font-wide font-thin tracking-normal text-base leading-6 w-5/12 min-[300px]:w-full">
           As an adult remembering when an empty streets used to be full of
           adventure, seeing all of the trash laying around, wondering to what
           could be done with all of the items lost to the time. Imagining all
@@ -46,7 +46,7 @@ const Garbage = () => {
   width={700}
   height={475}
   sizes="15vw"
-  className="animate-moveTopToBottom animation-iteration-count[infinite] duration-5000 ease-linear"
+  className="min-[300px]:w-[600px]"
   style={{
     width: "15%",
     height: "auto",
@@ -54,7 +54,7 @@ const Garbage = () => {
 />
 
       
-          <div className="absolute flex flex-wrap justify-between w-8/12 left-56 top-80">
+          <div className="absolute flex flex-wrap md:justify-between md:w-8/12 md:left-56 md:top-80 min-[300px]:left-10 min-[300px]:top-[1000px]">
         {['1', '2'].map((gifIndex) => (
           <Image
             key={gifIndex}
@@ -63,6 +63,7 @@ const Garbage = () => {
             width={700}
             height={475}
             sizes="50vw"
+            className=""
             style={{
               width: "50%",
               height: "auto",
@@ -71,7 +72,7 @@ const Garbage = () => {
           />
         ))}
       </div>
-      <div className="absolute flex flex-wrap justify-between w-3/4 left-56 bottom-20">
+      <div className="absolute flex flex-wrap md:justify-between md:w-3/4 md:left-56 md:bottom-20 min-[300px]:ml-[-150px]">
         {['3', '4'].map((gifIndex) => (
           <Image
             key={gifIndex}

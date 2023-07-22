@@ -21,9 +21,9 @@ export default function VideoPlayer() {
           <iframe
             src="https://player.vimeo.com/video/818803846?h=fbe9aa7dd8&title=0&byline=0&portrait=0"
             className="aspect-video w-full h-full"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay;  fullscreen; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
 
           <div className="flex justify-between">
