@@ -37,7 +37,7 @@ const Invasive = () => {
   return (
     <div class="grid grid-cols-1 sm:grid-cols-6 sm:grid-rows-4">
        <div class="relative sm:col-start-1 sm:col-span-4 sm:row-start-1 sm:row-span-6">
-        <h2 className="absolute top-28 left-14 z-50 text-[#484848] font-MPlus1 font-thin tracking-wider w-6/12  text-lg leading-6 min-[1900px]:w-4/12 min-[300px]:top-[-20px] min-[300px]:left-[100px] min-[300px]:w-10/12">
+        <h2 className="absolute md:top-28 left-14 z-50 text-[#484848] font-MPlus1 font-thin tracking-wider md:w-6/12  text-lg leading-6 min-[1900px]:w-4/12 min-[300px]:top-[-20px] min-[300px]:left-[100px] min-[300px]:w-10/12">
           Set Design for the Georgian footwear brand Invasive Modifications
         </h2>
         <Image
@@ -54,7 +54,7 @@ const Invasive = () => {
       </div>
 
       <div class="relative sm:col-start-4 sm:col-span-7 sm:row-start-2">
-        <h2 className="absolute top-[-100px] left-16 text-right z-50 text-[#484848] font-MPlus1 font-thin tracking-wider w-10/12  text-lg leading-6 min-[1900px]:left-56 min-[1900px]:w-8/12 min-[300px]:mt-12 min-[300px]:ml-5 min-[300px]:w-10/12">
+        <h2 className="absolute top-[-100px] left-16 text-right z-50 text-[#484848] font-MPlus1 font-thin tracking-wider w-10/12  text-lg leading-6 min-[1900px]:left-44 min-[1900px]:w-8/12 min-[300px]:mt-12 min-[300px]:ml-5 min-[300px]:w-10/12">
           Translating language at the core of brands world through artefacts
           within the current realm
         </h2>
@@ -68,8 +68,7 @@ const Invasive = () => {
         ></iframe>
       </div>
 
-      <div class="sm:col-start-1 sm:col-span-2 sm:row-start-3 sm:row-span-3 z-50 min-[300px]:col-span-1 min-[300px]:mt-20">
-        {/* ... existing code ... */}
+      <div class="sm:col-start-1 sm:col-span-2 sm:row-start-3 sm:row-span-3 z-50 min-[300px]:col-span-1 min-[300px]:mt-20 min-[1900px]:mt-[-100px] min-[1800px]:mt-[-100px] min-[1700px]:mt-[-100px] min-[1600px]:mt-[-100px]">
         <Image
           alt={`card ${imageIndex + 1}`}
           src={`/images/${imageFiles[imageIndex]}`}
@@ -97,7 +96,7 @@ const Invasive = () => {
           ))}
         </div>
       </div>
-      <div class="ml-5 sm:col-start-3 sm:col-span-4 sm:row-start-3 sm:self-center sm:row-span-2 z-50 text-[#484848] font-MPlus1 font-thin tracking-wider w-10/12 text-base leading-6 pt-20 min-[300px]:ml-[100px]">
+      <div class="ml-5 sm:col-start-3 sm:col-span-4 sm:row-start-3 sm:self-center sm:row-span-2 z-50 text-[#484848] font-MPlus1 font-thin tracking-wider w-10/12 text-base leading-6  min-[1900px]:mt-[-300px] min-[1800px]:mt-[-300px] min-[1700px]:mt-[-300px] min-[1600px]:mt-[-300px]">
         <p>
           Photography:
           <br />
