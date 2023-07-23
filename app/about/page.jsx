@@ -24,12 +24,12 @@ const About = () => {
           <span>Dachigiorgigaruchava@gmail.com </span>
           <br />
           <br />
-          <span>+49 157 53071293 • +995 557 600 76</span>
+          <span>+49 157 53071293 • +995 557 600 769</span>
           <br />
           <br />
           <span>
-            <a href="https://www.instagram.com/dagartyi/">Instagram</a>•
-            <a href="https://www.facebook.com/dachi.garuchava/">Facebook</a>
+            <a target='_blank' href="https://www.instagram.com/dagartyi/">Instagram</a>•
+            <a target='_blank' href="https://www.facebook.com/dachi.garuchava/">Facebook</a>
           </span>
           <br />
           <br />
