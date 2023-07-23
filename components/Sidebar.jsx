@@ -40,68 +40,62 @@
                 About
               </Link>
               <Link
-                href="/thewitness"
-                className={`project_link pt-2 ${isActive("/thewitness")}`}
-              >
-                The Witness
-              </Link>
-              <Link
-                href="/invasive-modification"
-                className={`project_link ${isActive("/invasive-modification")}`}
-              >
-                Invasive Modification
-              </Link>
-              <Link href="/STEPS" className={`project_link ${isActive("/STEPS")}`}>
-                STEPS
-              </Link>
-              <Link
-                href="/Hyphen"
-                className={`project_link ${isActive("/Hyphen")}`}
-              >
-                Hyphen
-              </Link>
-              <Link
-                href="/i-need-protection"
-                className={`project_link ${isActive("/i-need-protection")}`}
-              >
-                I Need Protection
-              </Link>
-              <Link href="/obj" className={`project_link ${isActive("/obj")}`}>
-                .OBJ
-              </Link>
-              <Link
-                href="/french-lessons"
-                className={`project_link ${isActive("/french-lessons")}`}
-              >
-                French Lessons
-              </Link>
-              <Link
-                href="/garbage-throne"
-                className={`project_link ${isActive("/garbage-throne")}`}
-              >
-                Garbage Throne
-              </Link>
-              <Link href="/psr" className={`project_link ${isActive("/psr")}`}>
-                PSR
-              </Link>
-              <Link
-                href="/dead-vase"
-                className={`project_link ${isActive("/dead-vase")}`}
-              >
-                Dead Vase
-              </Link>
-              <Link
-                href="/broken-city"
-                className={`project_link ${isActive("/broken-city")}`}
-              >
-                Broken City
-              </Link>
-              <Link
-                href="/march32"
-                className={`project_link ${isActive("/march32")}`}
-              >
-                March32
-              </Link>
+            href="/thewitness"
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/thewitness") ? 'text-[#909090]' : 'text-[#484848]'}`}
+          >
+            The Witness
+          </Link>
+          <Link
+            href="/invasive-modification"
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/invasive-modification") ? 'text-[#909090]' : 'text-[#484848]'}`}
+          >
+            Invasive Modification
+          </Link>
+          <Link href="/STEPS"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/STEPS") ? 'text-[#909090]' : 'text-[#484848]'}`}>
+            STEPS
+          </Link>
+          <Link href="/Hyphen" c className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/Hyphen") ? 'text-[#909090]' : 'text-[#484848]'}`}>
+            Hyphen
+          </Link>
+          <Link
+            href="/i-need-protection"
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/i-need-protection") ? 'text-[#909090]' : 'text-[#484848]'}`}
+          >
+            I Need Protection
+          </Link>
+          <Link href="/obj"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/obj") ? 'text-[#909090]' : 'text-[#484848]'}`}>
+            .OBJ
+          </Link>
+          <Link
+            href="/french-lessons"
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/french-lessons") ? 'text-[#909090]' : 'text-[#484848]'}`}
+          >
+            French Lessons
+          </Link>
+          <Link
+            href="/garbage-throne"
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/garbage-throne") ? 'text-[#909090]' : 'text-[#484848]'}`}
+          >
+            Garbage Throne
+          </Link>
+          <Link href="/psr"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/psr") ? 'text-[#909090]' : 'text-[#484848]'}`}>
+            PSR
+          </Link>
+          <Link
+            href="/dead-vase"
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/dead-vase") ? 'text-[#909090]' : 'text-[#484848]'}`}
+          >
+            Dead Vase
+          </Link>
+          <Link
+            href="/broken-city"
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/broken-city") ? 'text-[#909090]' : 'text-[#484848]'}`}
+          >
+            Broken City
+          </Link>
+          <Link href="/march32"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/march32") ? 'text-[#909090]' : 'text-[#484848]'}`}>
+            March32
+          </Link>
             </ul>
           )}
         </div>
@@ -113,59 +107,59 @@
           </Link>
           <Link
             href="/thewitness"
-            className={`project_link pt-2 ${isActive("/ thewitness")}`}
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/thewitness") ? 'text-[#909090]' : 'text-[#484848]'}`}
           >
             The Witness
           </Link>
           <Link
             href="/invasive-modification"
-            className={`project_link ${isActive("/invasive-modification")}`}
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/invasive-modification") ? 'text-[#909090]' : 'text-[#484848]'}`}
           >
             Invasive Modification
           </Link>
-          <Link href="/STEPS" className={`project_link ${isActive("/STEPS")}`}>
+          <Link href="/STEPS"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/STEPS") ? 'text-[#909090]' : 'text-[#484848]'}`}>
             STEPS
           </Link>
-          <Link href="/Hyphen" className={`project_link ${isActive("/Hyphen")}`}>
+          <Link href="/Hyphen" c className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/Hyphen") ? 'text-[#909090]' : 'text-[#484848]'}`}>
             Hyphen
           </Link>
           <Link
             href="/i-need-protection"
-            className={`project_link ${isActive("/i-need-protection")}`}
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/i-need-protection") ? 'text-[#909090]' : 'text-[#484848]'}`}
           >
             I Need Protection
           </Link>
-          <Link href="/obj" className={`project_link ${isActive("/obj")}`}>
+          <Link href="/obj"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/obj") ? 'text-[#909090]' : 'text-[#484848]'}`}>
             .OBJ
           </Link>
           <Link
             href="/french-lessons"
-            className={`project_link ${isActive("/french-lessons")}`}
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/french-lessons") ? 'text-[#909090]' : 'text-[#484848]'}`}
           >
             French Lessons
           </Link>
           <Link
             href="/garbage-throne"
-            className={`project_link ${isActive("/garbage-throne")}`}
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/garbage-throne") ? 'text-[#909090]' : 'text-[#484848]'}`}
           >
             Garbage Throne
           </Link>
-          <Link href="/psr" className={`project_link ${isActive("/psr")}`}>
+          <Link href="/psr"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/psr") ? 'text-[#909090]' : 'text-[#484848]'}`}>
             PSR
           </Link>
           <Link
             href="/dead-vase"
-            className={`project_link ${isActive("/dead-vase")}`}
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/dead-vase") ? 'text-[#909090]' : 'text-[#484848]'}`}
           >
             Dead Vase
           </Link>
           <Link
             href="/broken-city"
-            className={`project_link ${isActive("/broken-city")}`}
+            className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/broken-city") ? 'text-[#909090]' : 'text-[#484848]'}`}
           >
             Broken City
           </Link>
-          <Link href="/march32" className={`project_link ${isActive("/march32")}`}>
+          <Link href="/march32"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/march32") ? 'text-[#909090]' : 'text-[#484848]'}`}>
             March32
           </Link>
         </ul>
