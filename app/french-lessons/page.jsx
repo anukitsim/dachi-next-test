@@ -3,17 +3,17 @@ import Image from "next/image"
 const French = () => {
   return (
     <>
-      <div className="fixed inset-0 z-0 w-full h-screen overflow-hidden bg-[#080808]">
-       
-      </div>
+     
 
-      <div className="relative z-20 min-[300px]:ml-[100px]">
+      <div className="grid grid-cols-12 min-[300px]:flex min-[300px]:justify-center">
       <Image
             alt="french-lessons"
             src="/images/french.png"
             width={700}
         height={475}
-        className='mt-[-150px] ml-[-100px]'
+        className='
+        col-start-1
+        '
         sizes="100vw"
         style={{
           width: "100%",

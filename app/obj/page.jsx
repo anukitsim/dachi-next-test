@@ -62,7 +62,7 @@ const Obj = () => {
              alt="obj1"
              width={300}
              height={300}
-             className='mt-[-350px] ml-20 min-[2000px]:ml-[-200px] min-[2000px]:w-[600px] min-[1900px]:w-[400px] min-[1900px]:ml-[-20px] min-[1800px]:w-[400px] min-[1800px]:ml-[-20px] min-[1700px]:w-[400px] max-[900px]:w-[100px] max-[900px]:mt-[-50px]'
+             className='mt-[-350px] ml-20 min-[2000px]:ml-[-200px] min-[2000px]:w-[600px] min-[1900px]:w-[400px] min-[1900px]:ml-[-20px] min-[1800px]:w-[400px] min-[1800px]:ml-[-20px] min-[1700px]:w-[400px] max-[900px]:w-[100px] max-[900px]:mt-[-150px]'
         />
 
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div class="grid grid-cols-4 grid-rows-4 gap-10">
+    <div class="grid grid-cols-4 grid-rows-4 gap-10 max-[900px]:flex max-[900px]:flex-col">
       <div class="col-start-1 col-span-2 row-start-1 row-span-4">
         <p className="text-[#484848] font-MPlus1 font-wide font-thin tracking-normal text-base leading-6">
           {" "}

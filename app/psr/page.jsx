@@ -8,7 +8,7 @@ const Psr = () => {
     audio.play();
 
     return () => {
-      // Cleanup: Pause and remove the audio element
+     
       audio.pause();
       audio.src = '';
     };

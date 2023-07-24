@@ -12,19 +12,7 @@
   }
   
   
-  @media screen and (max-width: 640px) {
-    .main {
-      padding-left: 20px;
 
-    }
-  }
-
-  @media screen and (max-width: 300px) {
-    .main {
-      padding-left: 20px;
-      
-    }
-  }
 
   .sidebar {
     @apply flex flex-col items-start sm:pl-40 md:pl-40 lg:pl-40 xl:pl-40 2xl:pl-40 pt-20 md:w-6/12 lg:w-6/12 xl:w-3/12 2xl:w-3/12 sm:w-1/2 min-[320px]:w-full min-[320px]:pl-8 gap-2;

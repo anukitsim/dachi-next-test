@@ -26,7 +26,7 @@ const Hyphen = () => {
             src="/images/hyphenImg.png"
             width={700}
         height={475}
-        className='mt-[-150px] ml-[-100px] min-[300px]:pl-20'
+        className='flex justify-center mt-[-100px] min-[300px]:flex min-[300px]:justify-center'
         sizes="100vw"
         style={{
           width: "100%",
