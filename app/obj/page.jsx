@@ -51,7 +51,8 @@ const Obj = () => {
              alt="obj1"
              width={1500}
              height={800}
-             
+             layout="responsive" 
+             objectFit="cover" 
              className='ml-10 mb-10  min-[2000px]:w-[700px] min-[1900px]:w-[700px] min-[1800px]:w-[600px] min-[1700px]:w-[600px] '
         />
 

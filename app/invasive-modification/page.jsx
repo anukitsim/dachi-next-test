@@ -10,9 +10,6 @@ const Invasive = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    setIsLoading(false);
-  }, []);
 
   const imageFiles = [
     "card1.jpg",
@@ -29,6 +26,10 @@ const Invasive = () => {
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.muted = true;
+      videoRef.current.addEventListener("onLoad", () => {
+        setIsLoading(false);
+      });
+    
     }
   }, []);
 
@@ -45,7 +46,7 @@ const Invasive = () => {
   return (
     <div className="grid grid-cols-12 grid-rows-4 max-[900px]:flex max-[900px]:flex-col max-[900px]:gap-3">
       <div className="col-start-1 row-start-1 row-span-3 col-span-8 grid">
-        <h1 className="col-start-1 row-start-1 text-[#484848] w-6/12 font-MPlus1 font-thin tracking-normal text-lg leading-6 z-50">
+        <h1 className="col-start-1 row-start-1 max-[900px]:w-full text-[#484848] w-6/12 font-MPlus1 font-thin tracking-normal text-lg leading-6 z-50">
           Set Design for the Georgian footwear brand Invasive Modifications
         </h1>
         <Image
@@ -78,8 +79,7 @@ const Invasive = () => {
           style={{ border: "0", width: "100%", height: "100%" }}
         ></iframe>
       </div>
-      <div className="col-start-5 mt-24 row-start-3 col-span-2 self-end flex justify-end text-[#484848] font-MPlus1 font-thin tracking-normal text-sm leading-6">
-      <p>
+      <p className="col-start-5 col-span-3 row-start-3 row-span-2 max-[900px]:col-start-1 max-[900px]:self-start self-center ml-5 text-[#484848] font-MPlus1 font-thin tracking-normal text-sm leading-6">
           Photography:
           <br />
           <span>Giorgi Nakashidze</span>
@@ -100,23 +100,24 @@ const Invasive = () => {
           <br />
           <span>Nina Ivanovna</span>
         </p>
-
-        </div>
-      <div className="col-start-1 col-span-4 row-start-2 self-center row-span-3 z-50">
+     
+      <div className="col-start-1 mt-10 col-span-4 row-start-2 self-center row-span-3 z-50  max-[900px]:row-span-1">
       <Image
           alt={`card ${imageIndex + 1}`}
           src={`/images/${imageFiles[imageIndex]}`}
           width={700}
-          height={475}
+          height={600}
           sizes="100vw"
           onClick={nextImage}
           className=""
           style={{
             width: "100%",
-            height: "auto",
+            minHeight: "550px",
             cursor: "pointer",
           }}
         />
+        
+
        
         <div className="flex gap-2 mt-2">
         {imageFiles.map((_, index) => (
