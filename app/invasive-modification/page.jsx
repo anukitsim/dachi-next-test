@@ -60,6 +60,7 @@ const Invasive = () => {
             height: "auto",
           }}
         />
+       
       </div>
       <h1 className="col-start-7 row-start-1 col-span-5 self-center  text-[#484848] font-MPlus1 font-thin tracking-normal text-lg leading-6">
         {" "}
@@ -77,6 +78,30 @@ const Invasive = () => {
           style={{ border: "0", width: "100%", height: "100%" }}
         ></iframe>
       </div>
+      <div className="col-start-5 mt-24 row-start-3 col-span-2 self-end flex justify-end text-[#484848] font-MPlus1 font-thin tracking-normal text-sm leading-6">
+      <p>
+          Photography:
+          <br />
+          <span>Giorgi Nakashidze</span>
+          <br />
+          <span>Ika Khargelia</span>
+          <br />
+          <span>Luka Pantskhava</span>
+          <br />
+          <br />
+          <span>Prop Assistant:</span>
+          <br />
+          <span>Polina Zhuravkova</span>``
+          <br />
+          <br />
+          <span>Invasive Modification:</span>
+          <br />
+          <span>Nicolas Grigorian</span>
+          <br />
+          <span>Nina Ivanovna</span>
+        </p>
+
+        </div>
       <div className="col-start-1 col-span-4 row-start-2 self-center row-span-3 z-50">
       <Image
           alt={`card ${imageIndex + 1}`}
@@ -92,6 +117,7 @@ const Invasive = () => {
             cursor: "pointer",
           }}
         />
+       
         <div className="flex gap-2 mt-2">
         {imageFiles.map((_, index) => (
             <button
@@ -102,8 +128,12 @@ const Invasive = () => {
               }`}
             />
           ))}
+            
+           
         </div>
-          
+     
+            
+
       </div>
     </div>
   );

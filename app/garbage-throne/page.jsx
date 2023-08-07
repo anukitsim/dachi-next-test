@@ -63,6 +63,7 @@ const Garbage = () => {
             width={700}
             height={475}
             sizes="50vw"
+            unoptimized={true}
             className=""
             style={{
               width: "50%",
@@ -81,8 +82,9 @@ const Garbage = () => {
             width={700}
             height={475}
             sizes="50vw"
+            unoptimized={true}
             style={{
-              width: "50%",
+              width: "25%",
               height: "auto",
             }}
             
