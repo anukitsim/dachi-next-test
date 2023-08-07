@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { Suspense } from "react";
 
 const French = () => {
   return (
-    <>
+    <Suspense fallback='Loading...'>
       <div className="grid grid-cols-12 min-[300px]:flex min-[300px]:justify-center">
         <Image
           alt="french-lessons"
@@ -19,7 +20,7 @@ const French = () => {
           }}
         />
       </div>
-    </>
+    </Suspense>
   );
 };
 
