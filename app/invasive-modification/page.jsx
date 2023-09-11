@@ -10,6 +10,9 @@ const Invasive = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
+  useEffect(() => {
+    setIsLoading(false);
+  }, []);
 
   const imageFiles = [
     "card1.jpg",
@@ -26,10 +29,6 @@ const Invasive = () => {
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.muted = true;
-      videoRef.current.addEventListener("onLoad", () => {
-        setIsLoading(false);
-      });
-    
     }
   }, []);
 
@@ -54,12 +53,10 @@ const Invasive = () => {
           alt="invasive-1"
           width={700}
           height={475}
-          sizes="100vw"
-          className="col-start-1 row-start-1"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
+          sizes="(min-width: 1280px) calc(55.41vw - 82px), (min-width: 1040px) calc(44.55vw - 23px), (min-width: 920px) 67vw, (min-width: 640px) 100vw, (min-width: 340px) calc(100vw - 40px), calc(720vw - 2024px)"
+          className="w-full h-full"
+         
+          
         />
        
       </div>
@@ -101,21 +98,18 @@ const Invasive = () => {
           <span>Nina Ivanovna</span>
         </p>
      
-      <div className="col-start-1 mt-10 col-span-4 row-start-2 self-center row-span-3 z-50  max-[900px]:row-span-1">
+      <div className="col-start-1 mt-10 col-span-4 row-start-3 self-start row-span-3 z-50 max-[900px]:">
       <Image
           alt={`card ${imageIndex + 1}`}
           src={`/images/${imageFiles[imageIndex]}`}
           width={700}
           height={600}
-          sizes="100vw"
+          sizes="(min-width: 1280px) calc(27.73vw - 42px), (min-width: 1040px) calc(22.27vw - 12px), (min-width: 920px) 33vw, 136px"
+          className="w-full h-auto"
           onClick={nextImage}
-          className=""
-          style={{
-            width: "100%",
-            minHeight: "550px",
-            cursor: "pointer",
-          }}
+          
         />
+        
         
 
        

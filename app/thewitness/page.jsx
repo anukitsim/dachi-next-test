@@ -1,17 +1,15 @@
-"use client";
 
-import { useState, useEffect } from "react";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 
 
-const Loading = dynamic(() => import("./loading"), { ssr: false });
+// const Loading = dynamic(() => import("./loading"), { ssr: false });
 
 export default function VideoPlayer() {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    setIsLoading(false);
-  }, []);
+  // useEffect(() => {
+  //   setIsLoading(false);
+  // }, []);
 
   return (
     <div>
@@ -33,9 +31,8 @@ export default function VideoPlayer() {
         magic sparked by the many forms of cultural and political cohesion.
       </p>
 
-      {isLoading ? (
-        <Loading  />
-      ) : (
+      
+   
         <div>
           <iframe
             src="https://player.vimeo.com/video/804685785?h=53a3b36cd6&title=0&byline=0&portrait=0"
@@ -51,7 +48,7 @@ export default function VideoPlayer() {
             © Mykki Blanco et Dachi-Giorgi Garuchava
           </p>
         </div>
-      )}
+  
     </div>
-  );
+  )
 }

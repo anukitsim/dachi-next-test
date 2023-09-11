@@ -54,7 +54,7 @@
           <Link href="/STEPS"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/STEPS") ? 'text-[#909090]' : 'text-[#484848]'}`}>
             STEPS
           </Link>
-          <Link href="/Hyphen" c className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/Hyphen") ? 'text-[#909090]' : 'text-[#484848]'}`}>
+          <Link href="/Hyphen"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/Hyphen") ? 'text-[#909090]' : 'text-[#484848]'}`}>
             Hyphen
           </Link>
           <Link
@@ -120,7 +120,7 @@
           <Link href="/STEPS"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/STEPS") ? 'text-[#909090]' : 'text-[#484848]'}`}>
             STEPS
           </Link>
-          <Link href="/Hyphen" c className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/Hyphen") ? 'text-[#909090]' : 'text-[#484848]'}`}>
+          <Link href="/Hyphen"  className={`no-underline cursor-pointer font-MPlus1 leading-6 font-thin tracking-wider ${isActive("/Hyphen") ? 'text-[#909090]' : 'text-[#484848]'}`}>
             Hyphen
           </Link>
           <Link

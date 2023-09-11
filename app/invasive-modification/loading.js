@@ -4,7 +4,7 @@ const Loading = () => {
   return (
     <div
       role="status"
-      className="flex items-center justify-center h-56 max-w-sm bg-gray-200 rounded-lg animate-pulse z-50"
+      className="flex items-center justify-center h-56 max-w-sm bg-red-500 z-50 rounded-lg animate-pulse z-50"
     >
       <svg
         className="w-10 h-10 text-white"
